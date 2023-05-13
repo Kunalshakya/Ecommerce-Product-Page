@@ -1,0 +1,81 @@
+:root {
+    /* Primary color */
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+
+    /* Neutral color */
+    --very-dark-blue: hsl(220, 13%, 13%);
+    --dark-grayish-blue: hsl(219, 9%, 45%);
+    --grayish-blue: hsl(220, 14%, 75%);
+    --light-grayish-blue: hsl(223, 64%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black-lightbox-background: hsl(0, 0%, 0%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 144px 56px;
+    padding: 24px 0 32px 0;
+    border-bottom: 1px solid rgba(241, 241, 241, 0.945);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.nav-links {
+    display: flex;
+
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 12px 16px;
+    margin-left: 1rem;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-btn {
+    padding: 1rem;
+    border: none;
+    background: transparent;
+}
+
+.avatar-logo {
+    max-height: 50px;
+}
